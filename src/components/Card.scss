@@ -1,0 +1,158 @@
+@use '../Styles/variables.scss';
+
+.section-cards__header {
+    padding: 1em ;
+    background-color: variables.$cards-background-color;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    color: variables.$cards-color;
+    
+
+    @media (min-width: 1024px) {
+        max-width: 100%;
+    }
+
+  
+
+    
+
+
+}
+
+button.card__button{
+   
+    background-color: rgb(233, 127, 144);
+    border: 5px;
+    padding: 15px 20px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.3);
+    
+}
+
+button.card__button:hover{
+    background-color: rgb(226, 31, 145);
+    
+    
+}
+
+.card {
+    color: rgba(27, 27, 27, 0.849);
+    text-decoration: none;
+    outline: none;
+    width: 150px;
+    font-size: 12px;
+    
+    height: 400px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: pink;
+    box-shadow: 0 1px 5px rgba(0,0,0, .2), 0 0 3px rgba(0,0,0, .3);
+
+    transition: all .2s; /* No puede ser all */
+
+    &:hover,
+    &:focus {
+        /* transform: scale(1.03) skew(0); */
+        transform-origin: bottom;
+        box-shadow: 0 7px 8px rgba(0,0,0, .05), 0 3px 3px rgba(0,0,0, .01);
+    }
+
+    &:nth-child(5n + 1) {
+        background-image: white;
+        
+        
+    }
+    /*  #FFD4CB */
+
+    &:nth-child(5n + 2) {
+        background-image: #FFD4CB;
+    }
+
+    &:nth-child(5n + 3) {
+        background-image: #FFD4CB;
+    }
+
+    &:nth-child(5n + 4) {
+        background-image: #FFD4CB;
+    }
+
+    &:nth-child(5n + 5) {
+        background-image: #FFD4CB;
+        
+    }
+    
+
+
+
+    &__image-container {
+        height: 200px;
+        background-color:rgb(216, 213, 213);
+        overflow: hidden;
+        /* clip-path: polygon(0 0, 100% 0, 100% 200px, 0 180px); */ /* estado inicial */
+
+    }
+
+   /*  &:hover &__image-container,
+    &:focus &__image-container {
+         clip-path: polygon(0 0, 100% 0, 100% 190px, 0 200px);  // estado final 
+    } */
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: all .2s;
+    }
+
+    &:hover &__image,
+    &:focus &__image {
+        transform: scale(1.1);
+        transform-origin: center;
+    }
+
+    &__content {
+        padding: 1em;
+    }
+
+    @media (min-width: 426px) and (max-width: 768px) {
+        & {
+            min-width: 400px;
+            max-width: 500px;
+            height: 200px;
+        }
+
+        &__article { /* .card__article */
+            display: flex;
+        }
+
+        & &__image-container { /* .card .card_image-container */
+            width: 40%;
+            clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+        }
+
+        &:hover &__image-container, /* .card:hover .card__image-container  */
+        &:focus &__image-container { /* .card:focus .card__image-container */
+            width: 40%;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+    }
+
+    .section-cards {
+        background-color: pink;
+        
+        
+    }
+
+
+
+
+    
+
+}

@@ -1,0 +1,201 @@
+@use '../Styles/variables.scss';
+
+/* ------------------------------------------------- */
+/* HEADER                                            */
+/* ------------------------------------------------- */
+
+.main-header {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @media (min-width: 1024px) {
+        & { /* .main-header */
+            flex-direction: column;
+        }
+    }
+
+   
+}
+
+#menu {
+    display: none;
+
+    &:checked + .nav-bar {
+        display: block;
+    }
+
+}
+
+/* ------------------------------------------------- */
+/* SEARCH BAR                                        */
+/* ------------------------------------------------- */
+
+.search-bar {
+    background-color: variables.$searchbar-backgorund-color;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: .8em;
+
+    @media (min-width: 1024px) {
+        & {
+            flex-wrap: nowrap;
+            padding: 0;
+        }
+    }
+    @media (min-width: 426px) and (max-width: 768px) {
+        & {
+            display: grid;
+            grid-template-columns: 20% 64% 8% 8%;
+            padding: 1em 0;
+        }
+    }
+
+    
+
+    &__logo-container {
+        
+        background-image: url('/img/2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        order: 2;
+        padding: 2.5em 5.5em;
+        
+
+        @media (min-width: 3024px) {
+            & {
+                padding: 5,5em;
+            }
+        }
+        @media (min-width: 426px) and (max-width: 768px) {
+            & {
+                order: 1;
+            }
+        }
+
+        
+    }
+
+    &__form-container {
+        display: flex;
+        flex-basis: 100%; /* width: 100% */
+        justify-content: center;
+        order: 4;
+        padding: .8em;
+
+        @media (min-width: 1024px) {
+            & {
+                order: 2;
+                flex-basis: 40%;
+                padding: 1em;
+            }
+        }
+        @media (min-width: 426px) and (max-width: 768px) {
+            & {
+                order: 2;
+                width: 70%;
+                justify-self: center;
+            }
+        }
+    }
+
+    &__form-label {
+        border-radius: 10px 0px 0px 10px;
+        background-color: variables.$searchbar-backgorund-color;
+        padding: .3em;
+        font-size: 1.2em;
+        color: variables.$searchbar-color;
+        border: solid 2px variables.$searchbar-color;
+        border-right: none;
+    }
+
+    &__form-search {
+        background-color: variables.$searchbar-backgorund-color;
+        padding: .7em;
+        outline: none;
+        border: solid 2px variables.$searchbar-color;
+        border-radius: 0px 10px 10px 0px;
+        border-left: none;
+        width: 70%;
+        color: variables.$searchbar-color;
+        margin-right: .5em;
+    }
+
+    &__form-submit {
+        background-color: variables.$button-background-color;
+        color: variables.$searchbar-color;
+        border: none;
+        padding: .4em 1em;
+        border-radius: 10px;
+        font-weight: 700;
+        font-family: 'Dosis', sans-serif;
+        box-shadow: 0 1px 5px rgba(0,0,0, .2), 0 0 3px rgba(0,0,0, .3);
+    }
+
+    &__carrito-container {
+        align-items: center;
+        display: inline-flex;
+        font-size: 1.4em;
+        order: 1;
+        margin-left: .5em;
+        color: variables.$searchbar-color;
+
+        @media (min-width: 1024px) {
+            & {
+                padding: 0 1em;
+                order: 3;
+            }
+        }
+        @media (min-width: 426px) and (max-width: 768px) {
+            order: 3;
+        }
+    }
+}
+
+/* ------------------------------------------------- */
+/* MENÚ TOOGLE                                       */
+/* ------------------------------------------------- */
+
+.menu-toogle {
+    display: none;
+    background-color: red;
+    flex: 0 0 3em;
+    position: relative;
+    cursor: pointer;
+    order: 3;
+
+    &__label {
+        display: block;
+        background-color: variables.$searchbar-backgorund-color;
+        height: 100%;
+    }
+
+    &__top-bread,
+    &__meat,
+    &__bottom-bread {
+        display: block;
+        background-color: variables.$searchbar-color;
+        height: .2em;
+        position: absolute;
+        left: .5em;
+        right: .5em;
+    }
+
+    &__top-bread {
+        top: .8em;
+    }
+    &__meat {
+        top: 50%;
+        margin-top: -.1em;
+    }
+    &__bottom-bread {
+        bottom: .8em;
+    }
+
+    @media (max-width: 1024px) {
+        & {
+            display: block;
+        }
+    }
+}

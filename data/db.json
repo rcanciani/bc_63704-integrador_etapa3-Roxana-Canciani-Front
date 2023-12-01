@@ -1,0 +1,272 @@
+{
+  "productos": [
+    {
+    "nombre": "Base Maybelline",
+    "foto": "../img/base_maybelline.jpg",
+    "detalles": "Maybelline Fit Me Matte + Poreless Base Líquida 30ml",
+    "precio": "12500.00",
+    "stock": "11",
+    "marca": "Maybelline",
+    "categoria": "Make up",
+    "envio": true,
+    "id": "2"
+    },
+    {
+    "nombre": "Mascara Pestañas",
+    "foto": "../img/pestañas_1.jpg",
+    "detalles": "Revlon + ultra Volume",
+    "precio": "7900.00",
+    "stock": "7",
+    "marca": "Revlon",
+    "categoria": "Make up",
+    "envio": true,
+    "id": "3"
+    },
+    {
+    "nombre": "INFALLIBLE",
+    "foto": "../img/base_porcelana.jpg",
+    "detalles": "Base En Polvo L'oréal Paris Infaillible 24hs Fresh Wear Tono True beige",
+    "precio": " 15300.00",
+    "stock": "3",
+    "marca": "L´OREAL PARIS",
+    "categoria": "Make up",
+    "envio": false,
+    "id": "4"
+    },
+    {
+    "nombre": "Labial ultrafijacion",
+    "foto": "../img/labial_maybelline.jpg",
+    "detalles": "Labial Líquido Maybelline Superstay Vinyl Ink Tonos Nude Acabado Mate ",
+    "precio": "9200.00",
+    "stock": "2",
+    "marca": "Maybelline",
+    "categoria": "Make up",
+    "envio": true,
+    "id": "5"
+    },
+    {
+    "nombre": "Delineador ultrafijacion",
+    "foto": "../img/delineador.jpg",
+    "detalles": "Delineador De Ojos Líquido Resist Vogue Color Negro Efecto Mate",
+    "precio": "5500.00",
+    "stock": "5",
+    "marca": "VOGUE",
+    "categoria": "Make up",
+    "envio": true,
+    "id": "7"
+    },
+    {
+    "nombre": "Rubor",
+    "foto": "../img/rubor.jpg",
+    "detalles": " Rimmel Rubor Compacto Maxi Blush 001 Third Base",
+    "precio": "9700.00",
+    "stock": "2",
+    "marca": "RIMMEL",
+    "categoria": "Make up",
+    "envio": true,
+    "id": "8"
+    },
+    {
+    "nombre": "Esmalte Cutex",
+    "foto": "../img/esmalte.jpg",
+    "detalles": "Esmalte Para Uñas Cutex Hipoalergénico Vegano",
+    "precio": "1800.00",
+    "stock": "5",
+    "marca": "Cutex",
+    "categoria": "Cuidado de manos",
+    "envio": false,
+    "id": "9"
+    },
+    {
+    "nombre": "Agua Micelar Garnier  ",
+    "foto": "../img/agua_micelar.jpg",
+    "detalles": "Agua Micelar Bifásica Garnier Skin Active X 400ml",
+    "precio": "4700.00",
+    "stock": "17",
+    "marca": "Garnier",
+    "categoria": "Cuidado del rostro",
+    "envio": true,
+    "id": "11"
+    },
+    {
+    "nombre": "Nina Ricci",
+    "foto": "../img/nina.jpg",
+    "detalles": "Edt Nina Ricci Nina X 50 Ml",
+    "precio": "70000.00",
+    "stock": "11",
+    "marca": "Nina Ricci",
+    "categoria": "Perfumeria",
+    "envio": true,
+    "id": "12"
+    },
+    {
+    "nombre": "Maquillaje de Cejas ",
+    "foto": "../img/cejas.jpg",
+    "detalles": "Maquillaje De Cejas Revlon Colorstay Semi-permanent Brow Ink",
+    "precio": "11400.00",
+    "stock": "5",
+    "marca": "Revlon",
+    "categoria": "Make up",
+    "envio": false,
+    "id": "14"
+    },
+    {
+    "nombre": "Sombra en crema",
+    "foto": "../img/sombra_rev.jpg",
+    "detalles": "Sombra En Crema Para Ojos Revlon Colorstay Color de la sombra Caramel",
+    "precio": "7700.00",
+    "stock": "5",
+    "marca": "Revlon",
+    "categoria": "Make up",
+    "envio": true,
+    "id": "15"
+    },
+    {
+    "nombre": "Gloss brillo Labial",
+    "foto": "../img/mila_transp.jpg",
+    "detalles": "Gloss Brillo Labial Laca Larga Duración Mila Marzi",
+    "precio": "6400.00",
+    "stock": "1",
+    "marca": "Mila Marzi",
+    "categoria": "Make up",
+    "envio": false,
+    "id": "16"
+    }
+    ],
+  "carrito": [
+    [
+      {"nombre": "Base Maybelline",
+      "foto": "../img/base_maybelline.jpg",
+      "detalles": "Maybelline Fit Me Matte + Poreless Base Líquida 30ml",
+      "precio": "12500.00",
+      "stock": "11",
+      "marca": "Maybelline",
+      "categoria": "Make up",
+      "envio": true,
+      "id": "2"
+        
+      },
+      { "nombre": "Mascara Pestañas",
+      "foto": "../img/pestañas_1.jpg",
+      "detalles": "Revlon + ultra Volume",
+      "precio": "7900.00",
+      "stock": "7",
+      "marca": "Revlon",
+      "categoria": "Make up",
+      "envio": true,
+      "id": "3"
+        
+      },
+      {"nombre": "INFALLIBLE",
+      "foto": "../img/base_porcelana.jpg",
+      "detalles": "Base En Polvo L'oréal Paris Infaillible 24hs Fresh Wear Tono True beige",
+      "precio": " 15300.00",
+      "stock": "3",
+      "marca": "L´OREAL PARIS",
+      "categoria": "Make up",
+      "envio": false,
+      "id": "4"
+      },
+      {
+        "nombre": "Labial ultrafijacion",
+        "foto": "../img/labial_maybelline.jpg",
+        "detalles": "Labial Líquido Maybelline Superstay Vinyl Ink Tonos Nude Acabado Mate ",
+        "precio": "9200.00",
+        "stock": "2",
+        "marca": "Maybelline",
+        "categoria": "Make up",
+        "envio": true,
+        "id": "5"
+        },
+        {
+        "nombre": "Delineador ultrafijacion",
+        "foto": "../img/delineador.jpg",
+        "detalles": "Delineador De Ojos Líquido Resist Vogue Color Negro Efecto Mate",
+        "precio": "5500.00",
+        "stock": "5",
+        "marca": "VOGUE",
+        "categoria": "Make up",
+        "envio": true,
+        "id": "7"
+        },
+        {
+        "nombre": "Rubor",
+        "foto": "../img/rubor.jpg",
+        "detalles": " Rimmel Rubor Compacto Maxi Blush 001 Third Base",
+        "precio": "9700.00",
+        "stock": "2",
+        "marca": "RIMMEL",
+        "categoria": "Make up",
+        "envio": true,
+        "id": "8"
+        },
+        {
+        "nombre": "Esmalte Cutex",
+        "foto": "../img/esmalte.jpg",
+        "detalles": "Esmalte Para Uñas Cutex Hipoalergénico Vegano",
+        "precio": "1800.00",
+        "stock": "5",
+        "marca": "Cutex",
+        "categoria": "Cuidado de manos",
+        "envio": false,
+        "id": "9"
+        },
+        {
+        "nombre": "Agua Micelar Garnier  ",
+        "foto": "../img/agua_micelar.jpg",
+        "detalles": "Agua Micelar Bifásica Garnier Skin Active X 400ml",
+        "precio": "4700.00",
+        "stock": "17",
+        "marca": "Garnier",
+        "categoria": "Cuidado del rostro",
+        "envio": true,
+        "id": "11"
+        },
+        {
+        "nombre": "Nina Ricci",
+        "foto": "../img/nina.jpg",
+        "detalles": "Edt Nina Ricci Nina X 50 Ml",
+        "precio": "70000.00",
+        "stock": "11",
+        "marca": "Nina Ricci",
+        "categoria": "Perfumeria",
+        "envio": true,
+        "id": "12"
+        },
+        {
+        "nombre": "Maquillaje de Cejas ",
+        "foto": "../img/cejas.jpg",
+        "detalles": "Maquillaje De Cejas Revlon Colorstay Semi-permanent Brow Ink",
+        "precio": "11400.00",
+        "stock": "5",
+        "marca": "Revlon",
+        "categoria": "Make up",
+        "envio": false,
+        "id": "14"
+        },
+        {
+        "nombre": "Sombra en crema",
+        "foto": "../img/sombra_rev.jpg",
+        "detalles": "Sombra En Crema Para Ojos Revlon Colorstay Color de la sombra Caramel",
+        "precio": "7700.00",
+        "stock": "5",
+        "marca": "Revlon",
+        "categoria": "Make up",
+        "envio": true,
+        "id": "15"
+        },
+        {
+        "nombre": "Gloss brillo Labial",
+        "foto": "../img/mila_transp.jpg",
+        "detalles": "Gloss Brillo Labial Laca Larga Duración Mila Marzi",
+        "precio": "6400.00",
+        "stock": "1",
+        "marca": "Mila Marzi",
+        "categoria": "Make up",
+        "envio": false,
+        "id": "16"
+        }
+
+    ]
+  ]
+}
